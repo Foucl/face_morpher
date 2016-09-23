@@ -9,9 +9,7 @@ setup(
   packages=['facemorpher'],
   package_data={'facemorpher': [
     'data/*.xml',
-    'bin/stasm_util_osx_cv2',
-    'bin/stasm_util_osx_cv3',
-    'bin/stasm_util_linux_cv2'
+    'bin/*'
   ]},
   data_files=[('readme', ['README.rst'])],
   keywords='face morphing, averaging, warping',

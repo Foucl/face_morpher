@@ -13,7 +13,8 @@ import cvver
 SUPPORTED_PLATFORMS = {
   'linux': 'linux',
   'linux2': 'linux',
-  'darwin': 'osx'
+  'darwin': 'osx',
+  'win32': 'win32'
 }
 
 def boundary_points(points):
